@@ -6,6 +6,7 @@ import React from 'react';
 // https://web.programming-hero.com/update-1/video/update-1-71-6-responsive-grid-for-services-section
 // https://web.programming-hero.com/update-1/video/update-1-71-7-pop-image-out-of-the-section-in-appointment-section
 // https://web.programming-hero.com/update-1/video/update-1-71-8-add-testimonials-with-avatar-and-fake-data
+// https://web.programming-hero.com/update-1/video/update-1-71-9-module-summary-and-set-footer
 
 const About = () => {
   return (
