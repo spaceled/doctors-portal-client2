@@ -7,6 +7,9 @@ import React from 'react';
 // https://web.programming-hero.com/update-1/video/update-1-71-7-pop-image-out-of-the-section-in-appointment-section
 // https://web.programming-hero.com/update-1/video/update-1-71-8-add-testimonials-with-avatar-and-fake-data
 // https://web.programming-hero.com/update-1/video/update-1-71-9-module-summary-and-set-footer
+// https://web.programming-hero.com/update-1/video/update-1-72-1-module-introduction-recap-and-appointment-page
+// https://web.programming-hero.com/update-1/video/update-1-72-2-create-appointment-banner-using-react-day-picker
+// https://web.programming-hero.com/update-1/video/update-1-72-3-lift-up-state-to-share-data-and-available-appointment-component
 
 const About = () => {
   return (
