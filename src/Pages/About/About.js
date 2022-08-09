@@ -10,6 +10,10 @@ import React from 'react';
 // https://web.programming-hero.com/update-1/video/update-1-72-1-module-introduction-recap-and-appointment-page
 // https://web.programming-hero.com/update-1/video/update-1-72-2-create-appointment-banner-using-react-day-picker
 // https://web.programming-hero.com/update-1/video/update-1-72-3-lift-up-state-to-share-data-and-available-appointment-component
+// https://web.programming-hero.com/update-1/video/update-1-72-4-booking-options-and-available-slots-with-conditional-rendering
+// https://web.programming-hero.com/update-1/video/update-1-72-5-display-a-modal-from-on-booking-click-with-dynamic-data
+// https://web.programming-hero.com/update-1/video/update-1-72-6-create-booking-form-inside-booking-modal-
+// https://web.programming-hero.com/update-1/video/update-1-72-7-simple-node-mongo-server-for-doctors-portal-
 
 const About = () => {
   return (
