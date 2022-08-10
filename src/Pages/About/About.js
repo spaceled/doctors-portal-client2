@@ -18,6 +18,11 @@ import React from 'react';
 // https://web.programming-hero.com/update-1/video/update-1-72-9-module-summary-
 
 // https://web.programming-hero.com/update-1/video/update-1-73-1-module-introduction-and-firebase-project-setup
+// https://web.programming-hero.com/update-1/video/update-1-73-2-setup-login-page-implement-sign-in-with-google
+// https://web.programming-hero.com/update-1/video/update-1-73-3-explore-react-hook-form-and-create-email-input
+// https://web.programming-hero.com/update-1/video/update-1-73-4-create-login-form-using-react-hook-form-validation
+// https://web.programming-hero.com/update-1/video/update-1-73-5-handle-login-error-and-display-loading-spinner
+// https://web.programming-hero.com/update-1/video/update-1-73-6-implement-registration-form-to-create-new-user
 
 const About = () => {
   return (
