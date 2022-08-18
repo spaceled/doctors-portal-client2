@@ -23,6 +23,9 @@ import React from 'react';
 // https://web.programming-hero.com/update-1/video/update-1-73-4-create-login-form-using-react-hook-form-validation
 // https://web.programming-hero.com/update-1/video/update-1-73-5-handle-login-error-and-display-loading-spinner
 // https://web.programming-hero.com/update-1/video/update-1-73-6-implement-registration-form-to-create-new-user
+// https://web.programming-hero.com/update-1/video/update-1-73-7-update-user-name-and-implement-conditional-sign-out
+// https://web.programming-hero.com/update-1/video/update-1-73-8-require-auth-and-redirect-user-to-the-page-they-wanted-to-go
+// https://web.programming-hero.com/update-1/video/update-1-73-9-module-summary-and-clear-all-warnings
 
 const About = () => {
   return (
