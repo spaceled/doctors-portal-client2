@@ -34,6 +34,9 @@ import React from 'react';
 // https://web.programming-hero.com/update-1/video/update-1-74-3-limit-one-booking-per-user-per-treatment-per-day
 // https://web.programming-hero.com/update-1/video/update-1-74-4-interesting-find-available-time-slots-for-a-day
 // https://web.programming-hero.com/update-1/video/update-1-74-5-recap-load-available-time-slots-based-on-the-date
+// https://web.programming-hero.com/update-1/video/update-1-74-6-simple-overview-of-react-query-to-update-slots-automatically
+// https://web.programming-hero.com/update-1/video/update-1-74-7-create-dashboard-route-with-drawer-and-nested-route
+// https://web.programming-hero.com/update-1/video/update-1-74-8-display-user-specific-appointments-using-data-table
 
 const About = () => {
   return (
