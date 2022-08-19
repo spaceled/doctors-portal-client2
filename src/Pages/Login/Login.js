@@ -1,5 +1,5 @@
 import React from 'react';
-import { useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import { useSignInWithEmailAndPassword, useSignInWithGoogle, useUpdateEmail, useUpdatePassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 import { useForm } from "react-hook-form";
 import Loading from '../Shared/Loading';
@@ -15,6 +15,7 @@ const Login = () => {
     loading,
     error,
   ] = useSignInWithEmailAndPassword(auth);
+  const [updatePassword, updating, passwordError] = useUpdatePassword(auth);
 
   let signInError;
 
@@ -38,7 +39,7 @@ const Login = () => {
 
   const onSubmit = data => {
     signInWithEmailAndPassword(data.email, data.password);
-    navigate('/')
+    navigate('/');
   };
 
   return (
