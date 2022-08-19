@@ -37,6 +37,12 @@ import React from 'react';
 // https://web.programming-hero.com/update-1/video/update-1-74-6-simple-overview-of-react-query-to-update-slots-automatically
 // https://web.programming-hero.com/update-1/video/update-1-74-7-create-dashboard-route-with-drawer-and-nested-route
 // https://web.programming-hero.com/update-1/video/update-1-74-8-display-user-specific-appointments-using-data-table
+// https://web.programming-hero.com/update-1/video/update-1-74-9-module-summary-and-my-history
+
+// https://web.programming-hero.com/update-1/video/update-1-75-1-module-introduction-and-user-creation-process
+// https://web.programming-hero.com/update-1/video/update-1-75-2-save-registered-user-information-in-the-database
+// https://web.programming-hero.com/update-1/video/update-1-75-3-issue-simple-jwt-token-and-store-it-in-the-local-storage
+
 
 const About = () => {
   return (
