@@ -42,6 +42,11 @@ import React from 'react';
 // https://web.programming-hero.com/update-1/video/update-1-75-1-module-introduction-and-user-creation-process
 // https://web.programming-hero.com/update-1/video/update-1-75-2-save-registered-user-information-in-the-database
 // https://web.programming-hero.com/update-1/video/update-1-75-3-issue-simple-jwt-token-and-store-it-in-the-local-storage
+// https://web.programming-hero.com/update-1/video/update-1-75-4-send-jwt-token-to-back-end-for-verification
+// https://web.programming-hero.com/update-1/video/update-1-75-5-verify-jwt-token-and-handle-unauthorized-access
+// https://web.programming-hero.com/update-1/video/update-1-75-6-load-all-users-on-the-admin-page
+// https://web.programming-hero.com/update-1/video/update-1-75-7-create-api-to-make-user-an-admin
+// https://web.programming-hero.com/update-1/video/update-1-75-8-limit-dashboard-features-based-on-admin-level-access
 
 
 const About = () => {
