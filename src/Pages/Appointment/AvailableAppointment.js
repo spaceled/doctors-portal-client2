@@ -3,7 +3,7 @@ import { format } from 'date-fns';
 import React, { useEffect, useState } from 'react';
 import BookingModal from './BookingModal';
 import Service from './Service';
-import Loadoing from '../Shared/Loading';
+import Loading from '../Shared/Loading';
 
 const AvailableAppointment = ({ date }) => {
   // const [services, setServices] = useState([]);
@@ -14,7 +14,7 @@ const AvailableAppointment = ({ date }) => {
     .then(res => res.json()));
 
     if (isLoading) {
-      return <Loadoing></Loadoing>
+      return <Loading></Loading>
     }
   // useEffect(() => {
   //   fetch(`http://localhost:5000/available?date=${formattedDate}` )
@@ -23,7 +23,7 @@ const AvailableAppointment = ({ date }) => {
   // }, [formattedDate])
 
   return (
-    <div>
+    <div className="my-10">
       <h4 className="text-xl text-secondary text-center my-12">Available Appointments on {format(date, 'PP')}</h4>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         { 
