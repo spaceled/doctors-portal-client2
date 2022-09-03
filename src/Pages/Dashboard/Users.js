@@ -9,7 +9,7 @@ const Users = () => {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5000/user', {
+    fetch('https://warm-atoll-27481.herokuapp.com/user', {
       method: 'GET',
       headers: {
         authorization: `Bearer ${localStorage.getItem('accessToken')}`
@@ -19,7 +19,7 @@ const Users = () => {
       .then(data => setUsers(data))
   }, [users])
   // const {data: users, isLoading, refetch} = useQuery('users', () => 
-  // fetch('http://localhost:5000/user', {
+  // fetch('https://warm-atoll-27481.herokuapp.com/user', {
   //   method: 'GET',
   //   headers: { 
   //     authorization: `Bearer ${localStorage.getItem('accessToken')}`

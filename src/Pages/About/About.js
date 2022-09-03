@@ -51,6 +51,16 @@ import React from 'react';
 
 // https://web.programming-hero.com/update-1/video/update-1-75_5-1-deploy-doctors-portal-to-heroku-and-firebase
 
+// https://web.programming-hero.com/update-1/video/update-1-76-1-module-overview-and-add-a-doctor-admin-route-setup
+// https://web.programming-hero.com/update-1/video/update-1-76-2-load-services-with-data-project-and-add-file-type-input
+// https://web.programming-hero.com/update-1/video/update-1-76-3-upload-image-to-imgbb-server-and-get-image-url
+// https://web.programming-hero.com/update-1/video/update-1-76-4-save-doctor-info-in-the-database-and-display-success-message
+// https://web.programming-hero.com/update-1/video/update-1-76-5-verifyadmin-middleware-and-load-all-doctors
+// https://web.programming-hero.com/update-1/video/update-1-76-6-mange-doctors-and-delete-doctor-with-authorization
+// https://web.programming-hero.com/update-1/video/update-1-76-7-optional-node-mailer-overview-and-create-of-send-grid-account
+// https://web.programming-hero.com/update-1/video/update-1-76-8-optional-set-email-after-appointment-confirmation
+// https://web.programming-hero.com/update-1/video/update-1-76-9-module-summary-and-delete-confirmation-modal
+
 const About = () => {
   return (
     <div>
