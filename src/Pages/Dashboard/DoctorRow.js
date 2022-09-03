@@ -8,8 +8,8 @@ const DoctorRow = ({ doctor, index, setDeleteDoctor }) => {
     <tr>
       <th>{index + 1}</th>
       <td>
-        <div class="avatar">
-          <div class="w-8 rounded">
+        <div className="avatar">
+          <div className="w-8 rounded">
             <img src={img} alt={name} />
           </div>
         </div>

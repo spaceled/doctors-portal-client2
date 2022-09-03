@@ -9,10 +9,10 @@ const AddDoctor = () => {
   const { register, formState: { errors }, handleSubmit, reset } = useForm();
   const [services, setServices] = useState([]); 
 
-  // const { data: services, isLoading } = useQuery('services', () => fetch('http://localhost:5000/service').then(res => res.json()))
+  // const { data: services, isLoading } = useQuery('services', () => fetch('https://warm-atoll-27481.herokuapp.com/service').then(res => res.json()))
   
   useEffect(() => {
-    fetch('http://localhost:5000/service')
+    fetch('https://warm-atoll-27481.herokuapp.com/service')
     .then(res => res.json())
     .then(data => {
       setServices(data)})
@@ -39,7 +39,7 @@ const AddDoctor = () => {
           speciality: data.speciality,
           img: img
         }
-        fetch('http://localhost:5000/doctor', {
+        fetch('https://warm-atoll-27481.herokuapp.com/doctor', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

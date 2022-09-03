@@ -61,6 +61,16 @@ import React from 'react';
 // https://web.programming-hero.com/update-1/video/update-1-76-8-optional-set-email-after-appointment-confirmation
 // https://web.programming-hero.com/update-1/video/update-1-76-9-module-summary-and-delete-confirmation-modal
 
+// https://web.programming-hero.com/update-1/video/update-1-77-1-module-overview-and-create-payment-route-
+// https://web.programming-hero.com/update-1/video/update-1-77-2-create-payment-route-and-get-appointment-by-id
+// https://web.programming-hero.com/update-1/video/update-1-77-3-load-appointment-specific-data-install-stripe-and-stripe-for-react
+// https://web.programming-hero.com/update-1/video/update-1-77-4-basic-stipe-setup-and-with-simple-card-form-
+// https://web.programming-hero.com/update-1/video/update-1-77-5-handle-payment-processing-error-and-success
+// https://web.programming-hero.com/update-1/video/update-1-77-6-server-side-payment-intents-api-to-get-client-secret-from-stripe
+// https://web.programming-hero.com/update-1/video/update-1-77-7-process-card-confirmation-for-payment-and-display-success-message-
+// https://web.programming-hero.com/update-1/video/update-1-77-8-store-payment-on-database-and-update-appointment-data-as-well
+// https://web.programming-hero.com/update-1/video/update-1-77-9-module-summary-and-payment-overview
+
 const About = () => {
   return (
     <div>
